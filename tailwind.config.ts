@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         yellow: '#CA991A',
       },
+      backgroundImage: {
+        hero: "url('./carousel.svg')",
+        'hero-mobile': "url('./carousel-mobile.svg')",
+      },
     },
   },
   plugins: [],
