@@ -8,7 +8,9 @@ const Hero = () => {
           <Image src="/logo.svg" alt="" width={163} height={40} />
           <div className="hidden md:block justify-self-center">
             <ul className="flex items-center gap-8 text-white uppercase">
-              <li className="text-yellow border-b border-yellow pb-1">Home</li>
+              <li className="text-yellow-base border-b border-yellow-base pb-1">
+                Home
+              </li>
               <li className="pb-1">Sobre-Nós</li>
               <li className="pb-1">Cardápio</li>
               <li className="pb-1">Contato</li>
@@ -17,14 +19,14 @@ const Hero = () => {
           <div className="justify-self-end">
             <button className="block md:hidden">
               <Image
-                src="/menu.svg"
+                src="/menu-hamburguer.svg"
                 alt=""
                 width={36}
                 height={36}
                 className="cursor-pointer"
               />
             </button>
-            <button className="hidden md:flex items-center justify-center bg-yellow text-white w-40 h-10 rounded-xl uppercase">
+            <button className="hidden md:flex items-center justify-center bg-yellow-base text-white w-40 h-10 rounded-xl uppercase">
               Reserve Agora
             </button>
           </div>
@@ -41,7 +43,7 @@ const Hero = () => {
           Utilizando os melhores cortes de carne, ingredientes premium e
           técnicas culinárias exclusivas.
         </p>
-        <button className="flex items-center justify-center border border-yellow w-full md:w-56 h-12 rounded-xl uppercase text-xl text-yellow mt-20">
+        <button className="flex items-center justify-center border border-yellow-base w-full md:w-56 h-12 rounded-xl uppercase text-xl text-yellow-base mt-20">
           Saiba Mais
         </button>
       </div>
